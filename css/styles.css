@@ -337,3 +337,19 @@ clip-path: polygon(31% 0, 100% 0, 100% 100%, 0 100%, 0 25%);
 	
 	margin-bottom: 3%;
 }
+
+.padding {
+	padding: 5%;
+}
+
+footer a{
+	color: #FFB300 !important;
+}
+
+.thick {
+	height: 10px;
+	color: #ffb300;
+	background-color: #ffb300;
+	margin: 0px;
+	padding: 0px;
+}
