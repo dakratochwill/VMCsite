@@ -23,6 +23,7 @@
 	font-weight: 200;
 	padding-right: 1rem;
 	padding-left: 1rem;
+    border-bottom: 2px solid #000;
 }
 
 .nav-style:hover{
@@ -56,8 +57,7 @@
 }
 
 .hero-text {
-	height: 282px;	
-	width: 662px;	
+    max-width: 520px;
 	color: #FFFFFF;	
 	font-family: Roboto;	
 	font-size: 80px;	
@@ -65,12 +65,11 @@
 	letter-spacing: 1px;	
 	line-height: 94px;
 	text-align: left;
-		
 }
 
 .hero-button {
-	background-color: transparent;
-	border: 2px solid #EEA704;
+	background-color: #000;
+	border: 2px solid #000;
 	border-radius: 5px;
 }
 
@@ -96,6 +95,10 @@
 .about-section {
 	height: 15%;
 	width: auto;
+}
+
+.features {
+    margin: 100px 0px;
 }
 
 .white-border {
@@ -309,6 +312,10 @@ clip-path: polygon(31% 0, 100% 0, 100% 100%, 0 100%, 0 25%);
 	font-size: 48px;
 }
 
+#machine {
+    min-height: 50vh;
+}
+
 #machine img{
 	width: 100%;
 }
@@ -338,10 +345,6 @@ clip-path: polygon(31% 0, 100% 0, 100% 100%, 0 100%, 0 25%);
 	margin-bottom: 3%;
 }
 
-.padding {
-	padding: 5%;
-}
-
 footer a{
 	color: #FFB300 !important;
 }
@@ -350,6 +353,6 @@ footer a{
 	height: 10px;
 	color: #ffb300;
 	background-color: #ffb300;
-	margin: 0px;
+	margin: 100px 0px 0px;
 	padding: 0px;
 }
